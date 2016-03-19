@@ -7,9 +7,9 @@ public class Diary implements Serializable {
     public ArrayList<Event> Diarray = new ArrayList<Event>();
     public int amount = Event.amount;
 
-    public Diary(ArrayList<Event> inArray, int inAm) {
+    public Diary(ArrayList<Event> inArray) {
         Diarray = inArray;
-        amount = inAm;
+        amount = Event.amount;
     }
     public Diary(){
     }

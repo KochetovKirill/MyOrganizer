@@ -3,6 +3,7 @@ package Windows;
 import Data.Diary;
 import Data.Event;
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
@@ -25,13 +26,15 @@ public class MainWindow{
 
         Button button1 = new Button("add event");
         button1.setOnAction(e ->{
-            myDiary.add(new Event(new GregorianCalendar(myDiary.amount, myDiary.amount, myDiary.amount),
-                                  new GregorianCalendar(myDiary.amount, myDiary.amount, myDiary.amount),
+            myDiary.add(new Event(new GregorianCalendar(1, 1, 1),
+                                  new GregorianCalendar(1, 1, 1),
                                   "this is event"));
         });
 
         VBox root = new VBox(button1);
         root.getChildren().addAll(labels);
-
+        Scene scene = new Scene(root, 400, 400);
+        window.setScene(scene);
+        window.show();
     }
 }

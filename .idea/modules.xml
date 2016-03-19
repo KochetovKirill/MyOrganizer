@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../DesktopLauncher/DesktopLauncher.iml" filepath="$PROJECT_DIR$/../DesktopLauncher/DesktopLauncher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Events.iml" filepath="$PROJECT_DIR$/Events.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Gui/Gui.iml" filepath="$PROJECT_DIR$/../Gui/Gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyOrganizer.iml" filepath="$PROJECT_DIR$/MyOrganizer.iml" />
     </modules>
   </component>
 </project>
